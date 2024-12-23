@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(img/back.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .content{
+            padding: 60px;
+            height: 488px;
+            width: 288px;
+            background-color: white;
+            padding-top: -3%;
+            margin-left: 500px;
+            margin-top: 4%;
+        }
+        .pass{
+            padding: 12px 40px;
+        }
+        .sign{
+            padding: 12px 99px;
+            border-radius: 15px;
+            background-color: rgb(106, 14, 192);
+            color: white;
+
+        }
+        .up{
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+        <h1>Sign Up</h1>
+        <p>create on account of <a href="#">Sign in</a></p>
+        <form action=".php">
+            <label for="email adress"></label>Email Adress <br>
+            <input type="email"  id="email adress" name="email" class="pass" required><br><br>
+            <label for="Username"></label>Username <br>
+            <input type="text"  id="Username" name="username" class="pass" required><br><br>
+            <label for="password"></label>Password <br>
+            <input type="password"  id="password" name="password" class="pass" required><br><br>
+            <input type="checkbox"  id="checkbox" name=""><b>i do not wnt to receive email with adevertisting new suggestion</b><br><br>
+            <button type="submit" class="sign">sign up</button>
+            <p class="up">By signing up to create on account you are accepting our terms of services and pravacy policy</p>
+        
+        </form>
+
+    </div>
+   
+    
+</body>
+</html>
